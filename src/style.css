@@ -1,0 +1,66 @@
+body {
+  background-color: #fdf7fa;
+  color: #1f2041;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'Poppins', sans-serif;
+}
+
+body.dark {
+  background-color: #1f2041;
+  color: #fff;
+}
+
+.dark-mode {
+  background-color: #1f2041;
+  color: #fff;
+}
+
+.pomodoro-card {
+  background-color: #fff;
+  color: #1f2041;
+}
+
+.dark-mode .pomodoro-card {
+  background-color: #444;
+  color: #fff;
+}
+
+.status {
+  color: #333;
+}
+
+.dark-mode .status {
+  color: #fff;
+}
+
+.btn {
+  background-color: #007bff;
+}
+
+.dark-mode .btn {
+  background-color: #0056b3;
+}
+
+.btn.stop {
+  background-color: #dc3545;
+}
+
+.dark-mode .btn.stop {
+  background-color: #a71d2a;
+}
+
+.btn.apply {
+  background-color: #28a745;
+}
+
+.dark-mode .btn.apply {
+  background-color: #1e7e34;
+}
+
+.theme-toggle-btn {
+  background-color: #6c757d;
+}
+
+.dark-mode .theme-toggle-btn {
+  background-color: #5a6268;
+}
